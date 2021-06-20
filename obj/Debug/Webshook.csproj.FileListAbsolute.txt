@@ -1,0 +1,16 @@
+G:\Coding Projects\Webshook\bin\Debug\Webshook.exe.config
+G:\Coding Projects\Webshook\bin\Debug\Webshook.exe
+G:\Coding Projects\Webshook\bin\Debug\Webshook.pdb
+G:\Coding Projects\Webshook\obj\Debug\Webshook.Form1.resources
+G:\Coding Projects\Webshook\obj\Debug\Webshook.Properties.Resources.resources
+G:\Coding Projects\Webshook\obj\Debug\Webshook.csproj.GenerateResource.cache
+G:\Coding Projects\Webshook\obj\Debug\Webshook.csproj.CoreCompileInputs.cache
+G:\Coding Projects\Webshook\obj\Debug\Webshook.exe
+G:\Coding Projects\Webshook\obj\Debug\Webshook.pdb
+G:\Coding Projects\Webshook\bin\Debug\CSharpDiscordWebhook.dll
+G:\Coding Projects\Webshook\bin\Debug\Newtonsoft.Json.dll
+G:\Coding Projects\Webshook\bin\Debug\Newtonsoft.Json.xml
+G:\Coding Projects\Webshook\obj\Debug\Webshook.csproj.CopyComplete
+G:\Coding Projects\Webshook\bin\Debug\MetroFramework.dll
+G:\Coding Projects\Webshook\bin\Debug\MetroFramework.Fonts.dll
+G:\Coding Projects\Webshook\obj\Debug\Webshook.csprojAssemblyReference.cache
