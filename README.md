@@ -17,7 +17,7 @@
 
 
 ### Donations
-You can tip me some Monero (XMR) if you'd like.
+You can tip me Monero (XMR) if you'd like.
 Here's my address:
 ```
 44Bj8NnjEFydcxbJBD3CWSa8c2saTGjQJRVmRJrsbCWzdHYbjXCQ4e67MMrg18G9apU1Gze9T7mKggJJPt8mcRcf6Csvn11
