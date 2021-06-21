@@ -1,7 +1,7 @@
 # WebShook
  Custom discord webhook spammer. You can spam however many messages you want to a webhook and also delete it.
  
-![image](https://user-images.githubusercontent.com/77923481/122798225-55b44a80-d28e-11eb-8a51-980b9b1a63e3.png)
+![image](https://user-images.githubusercontent.com/77923481/122798876-15a19780-d28f-11eb-9458-727dfdb12955.png)
 
 ### Usage
 - Provide the webhook url, username, message, and the number of messages (avatar url is not required)
