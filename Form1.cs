@@ -13,12 +13,21 @@ namespace Webshook
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         string url, username, msg, avatar;
+        bool tts;
         int times;
         readonly string agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36";
 
         public Form1()
         {
             InitializeComponent();
+            if(ttsBox.Checked)
+            {
+                tts = true;
+            }
+            else
+            {
+                tts = false;
+            }
         }
         public void Spam()
         {
@@ -31,7 +40,7 @@ namespace Webshook
             DiscordMessage message = new DiscordMessage();
             message.Content = msg;
             message.Username = username;
-            message.TTS = false;
+            message.TTS = tts;
             message.AvatarUrl = avatar;
             times = int.Parse(timeBox.Text);
             if (!int.TryParse(timeBox.Text, out times))

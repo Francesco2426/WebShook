@@ -30,6 +30,7 @@ namespace Webshook
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ttsBox = new MetroFramework.Controls.MetroCheckBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.avatarBox = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
@@ -50,6 +51,7 @@ namespace Webshook
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.ttsBox);
             this.panel1.Controls.Add(this.metroLabel6);
             this.panel1.Controls.Add(this.avatarBox);
             this.panel1.Controls.Add(this.metroLabel5);
@@ -66,6 +68,15 @@ namespace Webshook
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(620, 307);
             this.panel1.TabIndex = 0;
+            // 
+            // ttsBox
+            // 
+            this.ttsBox.Location = new System.Drawing.Point(399, 160);
+            this.ttsBox.Name = "ttsBox";
+            this.ttsBox.Size = new System.Drawing.Size(45, 23);
+            this.ttsBox.TabIndex = 5;
+            this.ttsBox.Text = "TTS";
+            this.ttsBox.UseVisualStyleBackColor = true;
             // 
             // metroLabel6
             // 
@@ -114,7 +125,7 @@ namespace Webshook
             this.deleteButton.Location = new System.Drawing.Point(237, 250);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(123, 35);
-            this.deleteButton.TabIndex = 6;
+            this.deleteButton.TabIndex = 7;
             this.deleteButton.TabStop = false;
             this.deleteButton.Text = "Delete";
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
@@ -124,7 +135,7 @@ namespace Webshook
             this.spamButton.Location = new System.Drawing.Point(267, 209);
             this.spamButton.Name = "spamButton";
             this.spamButton.Size = new System.Drawing.Size(64, 35);
-            this.spamButton.TabIndex = 5;
+            this.spamButton.TabIndex = 6;
             this.spamButton.TabStop = false;
             this.spamButton.Text = "Spam";
             this.spamButton.Click += new System.EventHandler(this.spamButton_Click);
@@ -257,6 +268,7 @@ namespace Webshook
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroTextBox avatarBox;
         private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroCheckBox ttsBox;
     }
 }
 
