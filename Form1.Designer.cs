@@ -45,12 +45,14 @@ namespace Webshook
             this.webhookBox = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.silentButton = new MetroFramework.Controls.MetroButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.silentButton);
             this.panel1.Controls.Add(this.ttsBox);
             this.panel1.Controls.Add(this.metroLabel6);
             this.panel1.Controls.Add(this.avatarBox);
@@ -122,7 +124,7 @@ namespace Webshook
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(237, 250);
+            this.deleteButton.Location = new System.Drawing.Point(175, 250);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(123, 35);
             this.deleteButton.TabIndex = 7;
@@ -228,6 +230,16 @@ namespace Webshook
             this.metroLabel7.Text = "By: Francesco24";
             this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
+            // silentButton
+            // 
+            this.silentButton.Location = new System.Drawing.Point(304, 250);
+            this.silentButton.Name = "silentButton";
+            this.silentButton.Size = new System.Drawing.Size(123, 35);
+            this.silentButton.TabIndex = 11;
+            this.silentButton.TabStop = false;
+            this.silentButton.Text = "Silent Delete";
+            this.silentButton.Click += new System.EventHandler(this.silentButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -269,6 +281,7 @@ namespace Webshook
         private MetroFramework.Controls.MetroTextBox avatarBox;
         private MetroFramework.Controls.MetroLabel metroLabel7;
         private MetroFramework.Controls.MetroCheckBox ttsBox;
+        private MetroFramework.Controls.MetroButton silentButton;
     }
 }
 

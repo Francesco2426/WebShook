@@ -82,6 +82,12 @@ namespace Webshook
             Spam();
         }
 
+        private void silentButton_Click(object sender, EventArgs e)
+        {
+            url = webhookBox.Text;
+            Delete(url);
+        }
+
         private void deleteButton_Click(object sender, EventArgs e)
         {
             WebDel();
