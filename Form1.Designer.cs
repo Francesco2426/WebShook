@@ -30,6 +30,7 @@ namespace Webshook
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.silentButton = new MetroFramework.Controls.MetroButton();
             this.ttsBox = new MetroFramework.Controls.MetroCheckBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.avatarBox = new MetroFramework.Controls.MetroTextBox();
@@ -45,7 +46,6 @@ namespace Webshook
             this.webhookBox = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.silentButton = new MetroFramework.Controls.MetroButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +70,16 @@ namespace Webshook
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(620, 307);
             this.panel1.TabIndex = 0;
+            // 
+            // silentButton
+            // 
+            this.silentButton.Location = new System.Drawing.Point(304, 250);
+            this.silentButton.Name = "silentButton";
+            this.silentButton.Size = new System.Drawing.Size(123, 35);
+            this.silentButton.TabIndex = 11;
+            this.silentButton.TabStop = false;
+            this.silentButton.Text = "Silent Delete";
+            this.silentButton.Click += new System.EventHandler(this.silentButton_Click);
             // 
             // ttsBox
             // 
@@ -229,16 +239,6 @@ namespace Webshook
             this.metroLabel7.TabIndex = 0;
             this.metroLabel7.Text = "By: Francesco24";
             this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // silentButton
-            // 
-            this.silentButton.Location = new System.Drawing.Point(304, 250);
-            this.silentButton.Name = "silentButton";
-            this.silentButton.Size = new System.Drawing.Size(123, 35);
-            this.silentButton.TabIndex = 11;
-            this.silentButton.TabStop = false;
-            this.silentButton.Text = "Silent Delete";
-            this.silentButton.Click += new System.EventHandler(this.silentButton_Click);
             // 
             // Form1
             // 
