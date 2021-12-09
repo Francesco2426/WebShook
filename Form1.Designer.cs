@@ -66,16 +66,18 @@ namespace Webshook
             this.panel1.Controls.Add(this.messageBox);
             this.panel1.Controls.Add(this.usernameBox);
             this.panel1.Controls.Add(this.webhookBox);
-            this.panel1.Location = new System.Drawing.Point(23, 84);
+            this.panel1.Location = new System.Drawing.Point(31, 103);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(620, 307);
+            this.panel1.Size = new System.Drawing.Size(825, 377);
             this.panel1.TabIndex = 0;
             // 
             // silentButton
             // 
-            this.silentButton.Location = new System.Drawing.Point(304, 250);
+            this.silentButton.Location = new System.Drawing.Point(405, 308);
+            this.silentButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.silentButton.Name = "silentButton";
-            this.silentButton.Size = new System.Drawing.Size(123, 35);
+            this.silentButton.Size = new System.Drawing.Size(164, 43);
             this.silentButton.TabIndex = 11;
             this.silentButton.TabStop = false;
             this.silentButton.Text = "Silent Delete";
@@ -83,9 +85,10 @@ namespace Webshook
             // 
             // ttsBox
             // 
-            this.ttsBox.Location = new System.Drawing.Point(399, 160);
+            this.ttsBox.Location = new System.Drawing.Point(532, 197);
+            this.ttsBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ttsBox.Name = "ttsBox";
-            this.ttsBox.Size = new System.Drawing.Size(45, 23);
+            this.ttsBox.Size = new System.Drawing.Size(60, 28);
             this.ttsBox.TabIndex = 5;
             this.ttsBox.Text = "TTS";
             this.ttsBox.UseVisualStyleBackColor = true;
@@ -96,19 +99,21 @@ namespace Webshook
             this.metroLabel6.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel6.CustomForeColor = true;
             this.metroLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel6.Location = new System.Drawing.Point(355, 73);
+            this.metroLabel6.Location = new System.Drawing.Point(473, 90);
+            this.metroLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(219, 19);
+            this.metroLabel6.Size = new System.Drawing.Size(229, 20);
             this.metroLabel6.TabIndex = 10;
             this.metroLabel6.Text = "Webhook Avatar URL (not required)";
             this.metroLabel6.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // avatarBox
             // 
-            this.avatarBox.Location = new System.Drawing.Point(355, 95);
+            this.avatarBox.Location = new System.Drawing.Point(473, 117);
+            this.avatarBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.avatarBox.MaxLength = 1000;
             this.avatarBox.Name = "avatarBox";
-            this.avatarBox.Size = new System.Drawing.Size(219, 23);
+            this.avatarBox.Size = new System.Drawing.Size(292, 28);
             this.avatarBox.TabIndex = 2;
             // 
             // metroLabel5
@@ -117,26 +122,29 @@ namespace Webshook
             this.metroLabel5.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel5.CustomForeColor = true;
             this.metroLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel5.Location = new System.Drawing.Point(355, 138);
+            this.metroLabel5.Location = new System.Drawing.Point(473, 170);
+            this.metroLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(93, 19);
+            this.metroLabel5.Size = new System.Drawing.Size(99, 20);
             this.metroLabel5.TabIndex = 8;
             this.metroLabel5.Text = "# of messages";
             this.metroLabel5.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // timeBox
             // 
-            this.timeBox.Location = new System.Drawing.Point(355, 160);
+            this.timeBox.Location = new System.Drawing.Point(473, 197);
+            this.timeBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.timeBox.MaxLength = 25;
             this.timeBox.Name = "timeBox";
-            this.timeBox.Size = new System.Drawing.Size(38, 23);
+            this.timeBox.Size = new System.Drawing.Size(51, 28);
             this.timeBox.TabIndex = 4;
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(175, 250);
+            this.deleteButton.Location = new System.Drawing.Point(233, 308);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.deleteButton.Name = "deleteButton";
-            this.deleteButton.Size = new System.Drawing.Size(123, 35);
+            this.deleteButton.Size = new System.Drawing.Size(164, 43);
             this.deleteButton.TabIndex = 7;
             this.deleteButton.TabStop = false;
             this.deleteButton.Text = "Delete";
@@ -144,9 +152,10 @@ namespace Webshook
             // 
             // spamButton
             // 
-            this.spamButton.Location = new System.Drawing.Point(267, 209);
+            this.spamButton.Location = new System.Drawing.Point(356, 257);
+            this.spamButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.spamButton.Name = "spamButton";
-            this.spamButton.Size = new System.Drawing.Size(64, 35);
+            this.spamButton.Size = new System.Drawing.Size(85, 43);
             this.spamButton.TabIndex = 6;
             this.spamButton.TabStop = false;
             this.spamButton.Text = "Spam";
@@ -158,9 +167,10 @@ namespace Webshook
             this.metroLabel4.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel4.CustomForeColor = true;
             this.metroLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel4.Location = new System.Drawing.Point(139, 138);
+            this.metroLabel4.Location = new System.Drawing.Point(185, 170);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(120, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(127, 20);
             this.metroLabel4.TabIndex = 4;
             this.metroLabel4.Text = "Webhook Message";
             this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -171,9 +181,10 @@ namespace Webshook
             this.metroLabel3.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel3.CustomForeColor = true;
             this.metroLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel3.Location = new System.Drawing.Point(139, 73);
+            this.metroLabel3.Location = new System.Drawing.Point(185, 90);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(128, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(136, 20);
             this.metroLabel3.TabIndex = 3;
             this.metroLabel3.Text = "Webhook Username";
             this.metroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -184,34 +195,38 @@ namespace Webshook
             this.metroLabel2.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel2.CustomForeColor = true;
             this.metroLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel2.Location = new System.Drawing.Point(139, 17);
+            this.metroLabel2.Location = new System.Drawing.Point(185, 21);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(92, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(97, 20);
             this.metroLabel2.TabIndex = 2;
             this.metroLabel2.Text = "Webhook URL";
             this.metroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // messageBox
             // 
-            this.messageBox.Location = new System.Drawing.Point(139, 160);
+            this.messageBox.Location = new System.Drawing.Point(185, 197);
+            this.messageBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.messageBox.MaxLength = 1000;
             this.messageBox.Name = "messageBox";
-            this.messageBox.Size = new System.Drawing.Size(199, 23);
+            this.messageBox.Size = new System.Drawing.Size(265, 28);
             this.messageBox.TabIndex = 3;
             // 
             // usernameBox
             // 
-            this.usernameBox.Location = new System.Drawing.Point(139, 95);
+            this.usernameBox.Location = new System.Drawing.Point(185, 117);
+            this.usernameBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.usernameBox.MaxLength = 32;
             this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(199, 23);
+            this.usernameBox.Size = new System.Drawing.Size(265, 28);
             this.usernameBox.TabIndex = 1;
             // 
             // webhookBox
             // 
-            this.webhookBox.Location = new System.Drawing.Point(139, 39);
+            this.webhookBox.Location = new System.Drawing.Point(185, 48);
+            this.webhookBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.webhookBox.Name = "webhookBox";
-            this.webhookBox.Size = new System.Drawing.Size(313, 23);
+            this.webhookBox.Size = new System.Drawing.Size(417, 28);
             this.webhookBox.TabIndex = 0;
             // 
             // metroLabel1
@@ -220,9 +235,10 @@ namespace Webshook
             this.metroLabel1.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel1.CustomForeColor = true;
             this.metroLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel1.Location = new System.Drawing.Point(282, 71);
+            this.metroLabel1.Location = new System.Drawing.Point(395, 87);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(85, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(89, 20);
             this.metroLabel1.TabIndex = 1;
             this.metroLabel1.Text = "Spam/Delete";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -233,24 +249,27 @@ namespace Webshook
             this.metroLabel7.BackColor = System.Drawing.Color.Transparent;
             this.metroLabel7.CustomForeColor = true;
             this.metroLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.metroLabel7.Location = new System.Drawing.Point(1, 394);
+            this.metroLabel7.Location = new System.Drawing.Point(1, 485);
+            this.metroLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(102, 19);
+            this.metroLabel7.Size = new System.Drawing.Size(110, 20);
             this.metroLabel7.TabIndex = 0;
             this.metroLabel7.Text = "By: Francesco24";
             this.metroLabel7.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(666, 414);
+            this.ClientSize = new System.Drawing.Size(888, 510);
             this.Controls.Add(this.metroLabel7);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.Transparent;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Resizable = false;
             this.Style = MetroFramework.MetroColorStyle.Blue;
             this.Text = "WebShook";

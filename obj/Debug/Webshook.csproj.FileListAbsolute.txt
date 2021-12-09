@@ -30,3 +30,18 @@ G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.csproj.CoreCompileInputs
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.csproj.CopyComplete
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.exe
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.pdb
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\Webshook.exe.config
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\Webshook.exe
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\Webshook.pdb
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\CSharpDiscordWebhook.dll
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\MetroFramework.dll
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\Newtonsoft.Json.dll
+C:\Users\frc24\Documents\GitHub\WebShook\bin\Debug\Newtonsoft.Json.xml
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.csproj.AssemblyReference.cache
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.Form1.resources
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.Properties.Resources.resources
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.csproj.GenerateResource.cache
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.csproj.CoreCompileInputs.cache
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.exe
+C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.pdb

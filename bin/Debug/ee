@@ -1,0 +1,7 @@
+--------------------------8d9bb0b46b90ccd
+Content-Disposition: form-data; name="payload_json"
+Content-Type: application/json
+
+{"content":"Say goodbye to your webhook!","tts":false,"username":"Bye bye","avatar_url":""}
+--------------------------8d9bb0b46b90ccd--
+

@@ -62,7 +62,7 @@ namespace Webshook
                             if(e.Message.Contains("429"))
                             {
                                 MessageBox.Show("You are being ratelimitted.");
-                                Thread.Sleep(10000);
+                                Thread.Sleep(5000);
                             }
                             else
                             {
@@ -87,6 +87,7 @@ namespace Webshook
             url = webhookBox.Text;
             Delete(url);
         }
+
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
@@ -126,7 +127,8 @@ namespace Webshook
             }
             catch (Exception ex)
             {
-                return $"Error: {ex}";
+                MessageBox.Show($"Error: {ex}");
+                return null;
             }
         }
     }
