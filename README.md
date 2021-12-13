@@ -15,10 +15,3 @@
 - Here is an example of deleting a webhook:
 ![2021-06-20 16-15-23](https://user-images.githubusercontent.com/77923481/122687246-6b206a80-d1e3-11eb-9217-f939f9fddd13.gif)
 
-
-### Donations
-You can tip me Monero (XMR) if you'd like.
-Here's my address:
-```
-44Bj8NnjEFydcxbJBD3CWSa8c2saTGjQJRVmRJrsbCWzdHYbjXCQ4e67MMrg18G9apU1Gze9T7mKggJJPt8mcRcf6Csvn11
-```
