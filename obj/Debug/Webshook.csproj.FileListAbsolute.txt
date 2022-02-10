@@ -21,8 +21,6 @@ G:\Coding Projects\Webshook\WebShook\bin\Debug\CSharpDiscordWebhook.dll
 G:\Coding Projects\Webshook\WebShook\bin\Debug\MetroFramework.dll
 G:\Coding Projects\Webshook\WebShook\bin\Debug\MetroFramework.Fonts.dll
 G:\Coding Projects\Webshook\WebShook\bin\Debug\Newtonsoft.Json.dll
-G:\Coding Projects\Webshook\WebShook\bin\Debug\Newtonsoft.Json.xml
-G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.csprojAssemblyReference.cache
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.Form1.resources
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.Properties.Resources.resources
 G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.csproj.GenerateResource.cache
@@ -45,3 +43,8 @@ C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.csproj.GenerateResou
 C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.csproj.CoreCompileInputs.cache
 C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.exe
 C:\Users\frc24\Documents\GitHub\WebShook\obj\Debug\Webshook.pdb
+G:\Coding Projects\Webshook\WebShook\obj\Debug\Webshook.csproj.AssemblyReference.cache
+G:\Coding Projects\Webshook\WebShook\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+G:\Coding Projects\Webshook\WebShook\bin\Debug\System.ValueTuple.dll
+G:\Coding Projects\Webshook\WebShook\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+G:\Coding Projects\Webshook\WebShook\bin\Debug\MetroFramework.Design.dll
