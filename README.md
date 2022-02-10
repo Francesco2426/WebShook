@@ -1,7 +1,7 @@
 # WebShook
- Advanced discord webhook spammer. You can spam normal and embeded messages, aswell as delete webhooks. 
+ Advanced discord webhook spammer. You can spam normal and embedded messages, aswell as delete webhooks. 
  
-![unknown](https://user-images.githubusercontent.com/77923481/153478321-24651b47-a570-4071-98ef-c6eb74ff778d.png)
+![Webshook](https://user-images.githubusercontent.com/77923481/153480851-d6e5f4b9-9c20-46c0-8d4b-25708039da11.png)
 
 ### Usage
 - Provide a webhook, username, message, and amount. Or you can use the embed mode which only one field is required for it to work.
