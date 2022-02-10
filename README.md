@@ -10,8 +10,8 @@
 ### Examples
 - Here are some examples of spamming:
 
-  ![normal](https://user-images.githubusercontent.com/77923481/153478694-fd2ec852-bc53-4af0-b1fe-03c2f331ee72.gif)
-  ![embedspam](https://user-images.githubusercontent.com/77923481/153478703-fcf2114c-f5dd-4a49-b0c4-336fb8c6abb2.gif)
+  ![normal](https://user-images.githubusercontent.com/77923481/153478694-fd2ec852-bc53-4af0-b1fe-03c2f331ee72.gif) ![embedspam](https://user-images.githubusercontent.com/77923481/153478703-fcf2114c-f5dd-4a49-b0c4-336fb8c6abb2.gif)
+  
   ![multispam](https://user-images.githubusercontent.com/77923481/153478726-f66c9608-7af0-4c41-a0b8-741d6348bbf8.gif)
 
 - Here is an example of deleting multiple webhooks:
