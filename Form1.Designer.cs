@@ -178,7 +178,7 @@ namespace Webshook
             this.resetHooks.Name = "resetHooks";
             this.resetHooks.Size = new System.Drawing.Size(92, 31);
             this.resetHooks.TabIndex = 20;
-            this.resetHooks.Text = "Reset Webhooks";
+            this.resetHooks.Text = "Reset Hooks";
             this.resetHooks.Theme = MetroFramework.MetroThemeStyle.Light;
             this.resetHooks.Click += new System.EventHandler(this.resetHooks_Click);
             // 
