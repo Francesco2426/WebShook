@@ -1,17 +1,20 @@
 # WebShook
- Custom discord webhook spammer. You can spam however many messages you want to a webhook and also delete it.
+ Advanced discord webhook spammer. You can spam normal and embeded messages, aswell as delete webhooks. 
  
-![image](https://user-images.githubusercontent.com/77923481/122798876-15a19780-d28f-11eb-9458-727dfdb12955.png)
+![unknown](https://user-images.githubusercontent.com/77923481/153478321-24651b47-a570-4071-98ef-c6eb74ff778d.png)
 
 ### Usage
-- Provide the webhook url, username, message, and the number of messages (avatar url is not required)
-- If you do more than 5 messages there will be a ratelimit cooldown.
+- Provide a webhook, username, message, and amount. Or you can use the embed mode which only one field is required for it to work.
+- If you do more than 5 messages there will be a ratelimit cooldown, but there is also a toggle option for it incase you don't care about ratelimit.
 
 ### Examples
-- Here is an example of spamming a webhook:
+- Here are some examples of spamming:
 
-![2021-06-20 16-15-23_1](https://user-images.githubusercontent.com/77923481/122687224-4f1cc900-d1e3-11eb-9498-c769f4864fb2.gif)
+  ![normal](https://user-images.githubusercontent.com/77923481/153478694-fd2ec852-bc53-4af0-b1fe-03c2f331ee72.gif) 
+  ![embedspam](https://user-images.githubusercontent.com/77923481/153478703-fcf2114c-f5dd-4a49-b0c4-336fb8c6abb2.gif)
+  
+  ![multispam](https://user-images.githubusercontent.com/77923481/153478726-f66c9608-7af0-4c41-a0b8-741d6348bbf8.gif)
 
-- Here is an example of deleting a webhook:
-![2021-06-20 16-15-23](https://user-images.githubusercontent.com/77923481/122687246-6b206a80-d1e3-11eb-9217-f939f9fddd13.gif)
+- Here is an example of deleting multiple webhooks:
 
+  ![multidelete](https://user-images.githubusercontent.com/77923481/153478821-83af4413-39a6-4c64-8d60-01ec0285b6b7.gif)
