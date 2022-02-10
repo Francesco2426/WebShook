@@ -16,4 +16,4 @@
 
 - Here is an example of deleting multiple webhooks:
 
-![multidelete](https://user-images.githubusercontent.com/77923481/153478821-83af4413-39a6-4c64-8d60-01ec0285b6b7.gif)
+  ![multidelete](https://user-images.githubusercontent.com/77923481/153478821-83af4413-39a6-4c64-8d60-01ec0285b6b7.gif)
