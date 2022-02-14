@@ -30,6 +30,7 @@ namespace Webshook
 
         private void silentButton_Click(object sender, EventArgs e)
         {
+            url = webhookBox.Text;
             if (url != "")
             {
                 Delete(url);
@@ -46,6 +47,7 @@ namespace Webshook
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
+            url = webhookBox.Text;
             if (url != "")
             {
                 WebDel(url);
