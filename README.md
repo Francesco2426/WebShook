@@ -1,11 +1,11 @@
 # WebShook
  Advanced discord webhook spammer. You can spam normal and embedded messages, aswell as delete webhooks. 
  
-![Webshook](https://user-images.githubusercontent.com/77923481/153480851-d6e5f4b9-9c20-46c0-8d4b-25708039da11.png)
+![image](https://user-images.githubusercontent.com/77923481/165948983-96257217-d3e7-45f0-939f-be72e958ee22.png)
 
 ### Usage
 - Provide a webhook, username, message, and amount. Or you can use the embed mode which only one field is required for it to work.
-- If you do more than 5 messages there will be a ratelimit cooldown, but there is also a toggle option for it incase you don't care about ratelimit.
+- If you do more than 5 messages there will be a ratelimit cooldown, but there is also a toggle option to not display when you are being ratelimitted.
 
 ### Examples
 - Here are some examples of spamming:
