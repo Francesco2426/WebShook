@@ -2,53 +2,13 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "MetroFramework/1.2.0.3": {
+      "Guna.UI2.WinForms/2.0.3.1": {
         "type": "package",
-        "dependencies": {
-          "MetroFramework.Design": "1.2.0.3",
-          "MetroFramework.Fonts": "1.2.0.3",
-          "MetroFramework.RunTime": "1.2.0.3"
-        }
-      },
-      "MetroFramework.Design/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
         "compile": {
-          "lib/net40/MetroFramework.Design.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         },
         "runtime": {
-          "lib/net40/MetroFramework.Design.dll": {}
-        }
-      },
-      "MetroFramework.Fonts/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "compile": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        },
-        "runtime": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        }
-      },
-      "MetroFramework.RunTime/1.2.0.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
-        "compile": {
-          "lib/net40-Client/MetroFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net40-Client/MetroFramework.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
@@ -238,53 +198,13 @@
       }
     },
     ".NETFramework,Version=v4.8/win": {
-      "MetroFramework/1.2.0.3": {
+      "Guna.UI2.WinForms/2.0.3.1": {
         "type": "package",
-        "dependencies": {
-          "MetroFramework.Design": "1.2.0.3",
-          "MetroFramework.Fonts": "1.2.0.3",
-          "MetroFramework.RunTime": "1.2.0.3"
-        }
-      },
-      "MetroFramework.Design/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
         "compile": {
-          "lib/net40/MetroFramework.Design.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         },
         "runtime": {
-          "lib/net40/MetroFramework.Design.dll": {}
-        }
-      },
-      "MetroFramework.Fonts/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "compile": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        },
-        "runtime": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        }
-      },
-      "MetroFramework.RunTime/1.2.0.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
-        "compile": {
-          "lib/net40-Client/MetroFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net40-Client/MetroFramework.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
@@ -474,53 +394,13 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
-      "MetroFramework/1.2.0.3": {
+      "Guna.UI2.WinForms/2.0.3.1": {
         "type": "package",
-        "dependencies": {
-          "MetroFramework.Design": "1.2.0.3",
-          "MetroFramework.Fonts": "1.2.0.3",
-          "MetroFramework.RunTime": "1.2.0.3"
-        }
-      },
-      "MetroFramework.Design/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
         "compile": {
-          "lib/net40/MetroFramework.Design.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         },
         "runtime": {
-          "lib/net40/MetroFramework.Design.dll": {}
-        }
-      },
-      "MetroFramework.Fonts/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "compile": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        },
-        "runtime": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        }
-      },
-      "MetroFramework.RunTime/1.2.0.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
-        "compile": {
-          "lib/net40-Client/MetroFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net40-Client/MetroFramework.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
@@ -710,53 +590,13 @@
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
-      "MetroFramework/1.2.0.3": {
+      "Guna.UI2.WinForms/2.0.3.1": {
         "type": "package",
-        "dependencies": {
-          "MetroFramework.Design": "1.2.0.3",
-          "MetroFramework.Fonts": "1.2.0.3",
-          "MetroFramework.RunTime": "1.2.0.3"
-        }
-      },
-      "MetroFramework.Design/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
         "compile": {
-          "lib/net40/MetroFramework.Design.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         },
         "runtime": {
-          "lib/net40/MetroFramework.Design.dll": {}
-        }
-      },
-      "MetroFramework.Fonts/1.2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "MetroFramework.RunTime": "1.2.0.3"
-        },
-        "compile": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        },
-        "runtime": {
-          "lib/net40/MetroFramework.Fonts.dll": {}
-        }
-      },
-      "MetroFramework.RunTime/1.2.0.3": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.Drawing",
-          "System.Windows.Forms"
-        ],
-        "compile": {
-          "lib/net40-Client/MetroFramework.dll": {}
-        },
-        "runtime": {
-          "lib/net40-Client/MetroFramework.dll": {}
+          "lib/net40/Guna.UI2.dll": {}
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
@@ -947,58 +787,18 @@
     }
   },
   "libraries": {
-    "MetroFramework/1.2.0.3": {
-      "sha512": "PldREwx2yJ9GFXoR4IsXgsrTuOOEL1c5qZYeIfv9SVCSd7cJobmNRDHo+2v78E6U1lIWHM+ZIceZEETdOj0+oA==",
+    "Guna.UI2.WinForms/2.0.3.1": {
+      "sha512": "KER22j30szF1DSZiyUEwPnBoLAPA2FvwuS+6qXU+s60kcoIf3PT6rKrAqcFJcqiHazA2FSEDNCPipgjwGz1cwg==",
       "type": "package",
-      "path": "metroframework/1.2.0.3",
+      "path": "guna.ui2.winforms/2.0.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Content/MetroFramework.txt",
-        "README.TXT",
-        "metroframework.1.2.0.3.nupkg.sha512",
-        "metroframework.nuspec"
-      ]
-    },
-    "MetroFramework.Design/1.2.0.3": {
-      "sha512": "JhXzz2m1ofJu+vcqxib1s9nmI1akoDHTRweNISsVcvk38bVabqHpwrTpwvz3z4lcwqIe19/B6M4Rrk5uXdNmhA==",
-      "type": "package",
-      "path": "metroframework.design/1.2.0.3",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.TXT",
-        "Tools/install.ps1",
-        "lib/net40/MetroFramework.Design.dll",
-        "metroframework.design.1.2.0.3.nupkg.sha512",
-        "metroframework.design.nuspec"
-      ]
-    },
-    "MetroFramework.Fonts/1.2.0.3": {
-      "sha512": "5PAtJsIKfg4bzXPH3MeS4UFDxc4bgCe9yEEg+HS9+lOuwdChpMtawFw0XK4/u7OZxnCfkcHbnjTpu4IUpBBsfA==",
-      "type": "package",
-      "path": "metroframework.fonts/1.2.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.TXT",
-        "lib/net40/MetroFramework.Fonts.dll",
-        "metroframework.fonts.1.2.0.3.nupkg.sha512",
-        "metroframework.fonts.nuspec"
-      ]
-    },
-    "MetroFramework.RunTime/1.2.0.3": {
-      "sha512": "7AFviJ+uFd/jApvUzOU8mMzl3NCj/sjIKQgCeJqqEEc78R6LoOTH+qGFZBRIEV+6nqgt9h2Y/ei6xVkTNZ3sJA==",
-      "type": "package",
-      "path": "metroframework.runtime/1.2.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.TXT",
-        "lib/net40-Client/MetroFramework.dll",
-        "metroframework.runtime.1.2.0.3.nupkg.sha512",
-        "metroframework.runtime.nuspec"
+        "LICENSE.txt",
+        "guna.ui2.winforms.2.0.3.1.nupkg.sha512",
+        "guna.ui2.winforms.nuspec",
+        "icon.png",
+        "lib/net40/Guna.UI2.dll"
       ]
     },
     "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
@@ -1896,7 +1696,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "MetroFramework >= 1.2.0.3",
+      "Guna.UI2.WinForms >= 2.0.3.1",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.2",
       "Microsoft.Toolkit.Uwp.Notifications >= 7.1.2",
       "Microsoft.Windows.SDK.Contracts >= 10.0.22543-preview",
@@ -1937,9 +1737,9 @@
     "frameworks": {
       "net48": {
         "dependencies": {
-          "MetroFramework": {
+          "Guna.UI2.WinForms": {
             "target": "Package",
-            "version": "[1.2.0.3, )"
+            "version": "[2.0.3.1, )"
           },
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

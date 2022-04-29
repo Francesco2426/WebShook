@@ -34,9 +34,9 @@
       "frameworks": {
         "net48": {
           "dependencies": {
-            "MetroFramework": {
+            "Guna.UI2.WinForms": {
               "target": "Package",
-              "version": "[1.2.0.3, )"
+              "version": "[2.0.3.1, )"
             },
             "Microsoft.NETFramework.ReferenceAssemblies": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

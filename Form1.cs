@@ -8,13 +8,14 @@ using Microsoft.Toolkit.Uwp.Notifications;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace Webshook
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class Form1 : Form
     {
         public string url;
-        int amount;
+        public int amount;
         public DiscordWebhook hook = new DiscordWebhook();
 
         public Form1()
@@ -47,7 +48,7 @@ namespace Webshook
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            url = webhookBox.Text;
+            url = delHookBox.Text;
             if (url != "")
             {
                 WebDel(url);
@@ -76,12 +77,21 @@ namespace Webshook
             }
 
         }
+        private void resetWebhooks_Click(object sender, EventArgs e)
+        {
+            hookList.DataSource = null;
+            hookList.Items.Clear();
+            new ToastContentBuilder()
+                .AddText("Webshook")
+                .AddText("Webhook box has been reset!")
+                .Show();
+        }
 
         private void multiSpamBtn_Click(object sender, EventArgs e)
         {
             if (hookList.Items.Count <= 1)
             {
-                MessageBox.Show("Put more than one webhook, or just use the single-hook.");
+                MessageBox.Show("Put more than one webhook, or just use single-hook.");
             }
             else
             {
@@ -100,7 +110,7 @@ namespace Webshook
         {
             if (hookList.Items.Count <= 1)
             {
-                MessageBox.Show("Put more than one webhook, or just use the single-hook.");
+                MessageBox.Show("Put more than one webhook, or just use single-hook.");
             }
             else
             {
@@ -147,15 +157,6 @@ namespace Webshook
                     .Show();
             }
         }
-        private void resetHooks_Click(object sender, EventArgs e)
-        {
-            hookList.DataSource = null;
-            hookList.Items.Clear();
-            new ToastContentBuilder()
-                .AddText("Webshook")
-                .AddText("Webhook box has been reset!")
-                .Show();
-        }
         private void embedSpamBtn_Click(object sender, EventArgs e)
         {
             EmbedSpam(webhookBox.Text);
@@ -201,7 +202,7 @@ namespace Webshook
                 }
             }
             hookList.DataSource = valid;
-            hooksLoaded.Text = $"Webhooks Loaded: {hookList.Items.Count}";
+            webhooksLoadedLabel.Text = hookList.Items.Count.ToString();
             new ToastContentBuilder()
                 .AddText("Webshook")
                 .AddText("Webhooks Loaded!")
@@ -257,7 +258,36 @@ namespace Webshook
         }
         #endregion
         #region Spam Methods
-        public async void Spam(string webhook)
+        public async void RealSpam(DiscordWebhook hook, DiscordMessage msg)
+        {
+            for (int i = 0; i < amount; i++)
+            {
+                try
+                {
+                    hook.Send(msg);
+                }
+                catch (Exception e)
+                {
+                    if (e.Message.Contains("429"))
+                    {
+                        if (ratelimitCheck.Checked)
+                        {
+                            new ToastContentBuilder()
+                                .AddText("Webshook")
+                                .AddText("You are being Ratelimited")
+                                .Show();
+                            await Task.Delay(5000);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Error: {e}");
+                        break;
+                    }
+                }
+            }
+        }
+        public void Spam(string webhook)
         {
             DiscordWebhook hook = new DiscordWebhook();
             hook.Url = webhook;
@@ -274,31 +304,7 @@ namespace Webshook
             {
                 if (usernameBox.Text != "" || messageBox.Text != "")
                 {
-                    for (int i = 0; i < amount; i++)
-                    {
-                        try
-                        {
-                            hook.Send(message);
-                        }
-                        catch (Exception e)
-                        {
-                            if (e.Message.Contains("429"))
-                            {
-                                if (ratelimitCheck.Checked)
-                                {
-                                    new ToastContentBuilder()
-                                        .AddText("Webshook")
-                                        .AddText("You are being Ratelimited")
-                                        .Show();
-                                    await Task.Delay(5000);
-                                }
-                            }
-                            else
-                            {
-                                MessageBox.Show($"Error: {e}");
-                            }
-                        }
-                    }
+                    RealSpam(hook, message);
                 }
                 else
                 {
@@ -306,8 +312,9 @@ namespace Webshook
                 }
             }
         }
-        public async void EmbedSpam(string webhook)
+        public void EmbedSpam(string webhook)
         {
+            DiscordWebhook hook = new DiscordWebhook();
             DiscordMessage msg = new DiscordMessage();
             hook.Url = webhook;
             DiscordEmbed emb = new DiscordEmbed();
@@ -328,36 +335,35 @@ namespace Webshook
             {
                 if (titleText.Text != "" || descriptionText.Text != "" || authorBox.Text != "" || footerBox.Text != "")
                 {
-                    for (int i = 0; i < amount; i++)
-                    {
-                        try
-                        {
-                            hook.Send(msg);
-                        }
-                        catch (Exception e)
-                        {
-                            if (e.Message.Contains("429"))
-                            {
-                                if (ratelimitCheck.Checked)
-                                {
-                                    new ToastContentBuilder()
-                                        .AddText("Webshook")
-                                        .AddText("You are being Ratelimited")
-                                        .Show();
-                                    await Task.Delay(5000);
-                                }
-                            }
-                            else
-                            {
-                                MessageBox.Show($"Error: {e}");
-                            }
-                        }
-                    }
+                    RealSpam(hook, msg);
                 }
                 else
                 {
                     MessageBox.Show("Please fill in atleast one field.");
                 }
+            }
+        }
+        #endregion
+
+        #region Not mine
+        private bool mouseDown;
+        private Point lastLoc;
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            lastLoc = e.Location;
+        }
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
+        }
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                Location = new Point((Location.X - lastLoc.X) + e.X, (Location.Y - lastLoc.Y) + e.Y);
+                Update();
             }
         }
         #endregion
