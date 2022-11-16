@@ -79,7 +79,7 @@ namespace Webshook
         {
             if (hookList.Items.Count <= 1)
             {
-                
+                MessageBox.Show("Put more than one webhook, or just use single-hook.");
             }
             else
             {
